@@ -1,4 +1,4 @@
-package com.ridgelabz.algorithm;
+package com.bridgelabz.algorithm;
 
 public class Welcome {
 
