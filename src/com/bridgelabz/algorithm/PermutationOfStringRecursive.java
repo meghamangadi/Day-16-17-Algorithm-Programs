@@ -12,14 +12,14 @@ public class PermutationOfStringRecursive {
 		int number;
 		number=string.length();                                      
 		PermutationOfStringRecursive.permutationOfStringRecursive(string,0,number-1);     
-		                                                             
+		                                                              
        sc.close();
      }
 
 	 
 	 public static void permutationOfStringRecursive(String string,int lower,int higher)
 	 {
-		 StringBuilder strB = new StringBuilder(string);
+		 StringBuilder strB = new StringBuilder(string); 
 		 int j;
 		 if(lower==higher)
 		 {
