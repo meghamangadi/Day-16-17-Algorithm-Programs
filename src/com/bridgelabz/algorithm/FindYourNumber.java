@@ -14,7 +14,7 @@ public class FindYourNumber {
 
 		for (int i = 0; i < len; i++) {
 			int j = i + 1;
-			num[i] = j;
+			num[i] = j; 
 		}
 		int n = num.length - 1;
 		FindYourNumber.repeat(num, 0, n);
